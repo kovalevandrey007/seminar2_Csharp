@@ -8,14 +8,14 @@ string numberFirst = Console.ReadLine();
 int number1 = Convert.ToInt32(numberFirst);
 
 Console.WriteLine("Введите число #2: ");
-string numberFirst = Console.ReadLine();
+string numberSecond = Console.ReadLine();
 int number2 = Convert.ToInt32(numberSecond);
 
 int result = number1 % number2;
 
 if(result == 0)
 {
-    Console.WriteLine($"{number1} кратно {number2}!");
+    Console.WriteLine($"{number1} кратно {number2}");
 }
 else {
      Console.WriteLine($"Остаток {result}!");
